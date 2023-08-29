@@ -13,6 +13,6 @@ class TraderController extends AbstractController
     #[Route('/room/trader', name: 'trader_room')]
     public function traderRoom(Request $request): Response
     {
-         return new Response('trader room');
+        return new Response('trader room');
     }
 }
